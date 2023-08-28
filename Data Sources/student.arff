@@ -1,0 +1,20 @@
+@relation student
+
+@attribute Name string
+@attribute RegNo string
+@attribute Gender {M,F}
+@attribute Age numeric
+@attribute IQ numeric
+@attribute Score numeric
+
+@data
+Ramu,20A81A0501,M,40,7,80
+Raju,20A81A0502,M,20,?,86
+Rani,20A81A0503,F,25,4,68
+Girish,20A81A0504,?,39,5,53
+Anji,20A81A0505,M,29,6,96
+Sri,20A81A0506,F,33,4,76
+Subbu,20A81A0507,M,41,9,84
+Raghu,20A81A0508,M,?,5,53
+Chinni,20A81A0509,F,33,6,78
+Appu,20A81A0510,M,39,5,62

@@ -1,0 +1,25 @@
+@relation employee
+
+@attribute Designation {manager, developer, tester}
+@attribute Beneficiary {yes,  no}
+@attribute GPF {yes, no}
+@attribute Salay {low, medium, high}
+@attribute CreditRating {poor, fair, good}
+@attribute BankLoan {yes, no}
+
+@data
+developer,yes,yes,medium,fair,no
+tester,no,no,high,good,no
+manager,yes,no,medium,fair,no
+developer,yes,no,high,fair,yes
+developer,yes,no,high,fair,no
+developer,yes,yes,high,fair,yes
+manager,yes,no,low,poor,no
+manager,yes,yes,medium,fair,yes
+manager,yes,no,high,good,no
+developer,no,no,medium,good,no
+tester,yes,no,medium,fair,no
+developer,yes,no,medium,fair,yes
+tester,no,no,low,fair,no
+developer,yes,no,medium,good,no
+developer,no,no,medium,good,no
