@@ -1,0 +1,25 @@
+@relation StudentRelation
+
+@attribute SSC {first,second,third}
+@attribute Inter {first,second,third}
+@attribute marks1 numeric
+@attribute marks2 numeric
+@attribute marks3 numeric
+@attribute Result {pass, fail}
+
+@data
+first,second,55,57,62,pass
+first,first,63,63,55,pass
+first,first,65,67,66,pass
+first,first,76,77,82,pass
+second,third,32,43,23,fail
+first,first,67,76,57,pass
+second,second,56,54,45,pass
+second,second,56,65,57,pass
+third,third,34,23,12,fail
+second,third,23,34,23,fail
+second,first,65,64,56,pass
+first,first,65,66,67,pass
+third,third,45,32,23,fail
+first,first,56,63,73,pass
+second,first,65,56,57,pass

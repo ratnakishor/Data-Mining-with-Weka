@@ -1,0 +1,13 @@
+@relation StudentRelation1
+
+@attribute SSC {first,second,third}
+@attribute Inter {first,second,third}
+@attribute marks1 numeric
+@attribute marks2 numeric
+@attribute marks3 numeric
+@attribute Result {pass, fail}
+
+@data
+first,first,76,67,75,?
+second,third,32,43,32,?
+first,first,65,36,37,?
